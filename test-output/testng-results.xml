@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="20204" started-at="2019-01-07T04:53:39Z" finished-at="2019-01-07T04:53:59Z">
+    <groups>
+      <group name="regression">
+        <method signature="Test_GoodRx_UI_Prices.verifyUserFlow(java.lang.String, java.lang.String)[pri:0, instance:test_user_flow.Test_GoodRx_UI_Prices@210366b4]" name="verifyUserFlow" class="test_user_flow.Test_GoodRx_UI_Prices"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="test_user_flow" duration-ms="20204" started-at="2019-01-07T04:53:39Z" finished-at="2019-01-07T04:53:59Z">
+      <class name="test_user_flow.Test_GoodRx_UI_Prices">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test_user_flow.Test_GoodRx_UI_Prices@210366b4]" name="beforeSuite" is-config="true" duration-ms="206" started-at="2019-01-06T20:53:38Z" finished-at="2019-01-06T20:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initializeDriver(org.testng.ITestContext)[pri:0, instance:test_user_flow.Test_GoodRx_UI_Prices@210366b4]" name="initializeDriver" is-config="true" duration-ms="1284" started-at="2019-01-06T20:53:39Z" finished-at="2019-01-06T20:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ff6077]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyUserFlow(java.lang.String, java.lang.String)[pri:0, instance:test_user_flow.Test_GoodRx_UI_Prices@210366b4]" name="verifyUserFlow" duration-ms="18505" started-at="2019-01-06T20:53:40Z" finished-at="2019-01-06T20:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.goodrx.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Advil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserFlow -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test_user_flow.Test_GoodRx_UI_Prices@210366b4]" name="cleanUp" is-config="true" duration-ms="399" started-at="2019-01-06T20:53:58Z" finished-at="2019-01-06T20:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- test_user_flow.Test_GoodRx_UI_Prices -->
+    </test> <!-- test_user_flow -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

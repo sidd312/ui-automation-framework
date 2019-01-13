@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="test_user_flow(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test_user_flow.Test_GoodRx_UI_Prices">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verifyUserFlow"/>
+          <include name="initializeDriver"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- test_user_flow.Test_GoodRx_UI_Prices -->
+    </classes>
+  </test> <!-- test_user_flow(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

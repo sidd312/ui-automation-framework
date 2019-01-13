@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite" verbose="1">
+	<test name="test_user_flow">
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="test_user_flow.Test_GoodRx_UI_Prices" />
+		</classes>
+	</test>
+
+</suite>

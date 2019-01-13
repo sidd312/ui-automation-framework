@@ -1,0 +1,4 @@
+pageObjects/SearchResultsPage.class
+pageObjects/CouponPage.class
+pageObjects/HomePage.class
+pageObjects/BaseUIPage.class
